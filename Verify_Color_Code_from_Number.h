@@ -1,1 +1,1 @@
-void testNumberToPair(int, enum, enum )
+void testNumberToPair(int, enum MajorColor, enum MinorColor);
