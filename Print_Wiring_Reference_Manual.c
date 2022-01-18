@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "ColorCode_for_Telecommunications.h"
 
-#define MAX_COLORPAIR_NAME_CHARS 25
+#define MAX_PAIR_NUMBER_LIMIT 25
 
 void printWiringManual(void)
 {
