@@ -13,6 +13,6 @@ void printWiringManual(void)
 	{
 		colorPair = GetColorFromPairNumber(loopCount);
 		ColorPairToString(&colorPair, colorPairNames);
-    	printf("%d \t%s \t%s\n", loopCount, colorPairNames.majorColor , colorPair.minorColor);
+    	printf("%d \t%s \t%s\n", loopCount, colorPair.majorColor , colorPair.minorColor);
 	}
 }
