@@ -7,7 +7,7 @@ void printWiringManual(void)
 {
 	ColorPair colorPair;
 	
-	printf("\n*****Wiring Reference Manual*****");
+	printf("\n*****Wiring Reference Manual*****\n");
 	printf("\nPair No. \tMajor Color \tMinor Color");
 	for(int loopCount = 1; loopCount <= MAX_PAIR_NUMBER_LIMIT; loopCount++)
 	{
