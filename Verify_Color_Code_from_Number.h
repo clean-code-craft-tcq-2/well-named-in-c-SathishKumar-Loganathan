@@ -1,1 +1,1 @@
-extern void testNumberToPair(int, enum MajorColor, enum MinorColor );
+extern void testNumberToPair(int, enum, enum );
