@@ -9,7 +9,7 @@ void printWiringManual(void)
 	char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
 	
 	printf("Pair No. \tMajor Color \t Minor Color");
-	for(int loopCount = 1; i <= MAX_PAIR_NUMBER_LIMIT; i++)
+	for(int loopCount = 1; loopCount <= MAX_PAIR_NUMBER_LIMIT; loopCount++)
 	{
 		colorPair = GetColorFromPairNumber(loopCount);
 		ColorPairToString(&colorPair, colorPairNames);
