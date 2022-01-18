@@ -1,4 +1,5 @@
 #include "Verify_Color_Code_from_Number.h"
+#include "ColorCode_for_Telecommunications.h"
 
 ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
