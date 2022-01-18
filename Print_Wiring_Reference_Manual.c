@@ -12,7 +12,6 @@ void printWiringManual(void)
 	for(int loopCount = 1; loopCount <= MAX_PAIR_NUMBER_LIMIT; loopCount++)
 	{
 		colorPair = GetColorFromPairNumber(loopCount);
-		ColorPairToString(&colorPair, colorPairNames);
-    	printf("%d \t%s \t%s\n", loopCount, colorPair.majorColor , colorPair.minorColor);
+    		printf("%d \t%s \t%s\n", loopCount, MajorColorNames[colorPair.majorColor] , MinorColorNames[colorPair.minorColor]);
 	}
 }
