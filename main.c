@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
+#include "ColorCode_for_Telecommunications.h"
 #include "Verify_Color_Code_from_Number.h"
 
 const char* MajorColorNames[] = {
