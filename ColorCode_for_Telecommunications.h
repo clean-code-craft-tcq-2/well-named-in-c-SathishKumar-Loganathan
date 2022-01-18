@@ -13,3 +13,6 @@ typedef struct {
 } ColorPair;
 
 const int MAX_COLORPAIR_NAME_CHARS;
+
+void testNumberToPair(int, enum MajorColor, enum MinorColor);
+void testPairToNumber(enum MajorColor major, enum MinorColor minor, int);
