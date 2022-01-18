@@ -3,6 +3,10 @@
 
 #define MAX_PAIR_NUMBER_LIMIT 25
 
+/* Funtion to Print the Wiring Manual in Tabular form
+*  Arguments: None
+*  Returns: Nothing */
+
 void printWiringManual(void)
 {
 	ColorPair colorPair;
