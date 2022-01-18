@@ -1,3 +1,1 @@
-void testNumberToPair(int pairNumber,
-    enum MajorColor expectedMajor,
-    enum MinorColor expectedMinor);
+extern void testNumberToPair(int, enum MajorColor, enum MinorColor );
