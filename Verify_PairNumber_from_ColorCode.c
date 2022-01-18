@@ -1,3 +1,4 @@
+#include <assert.h>
 #include "Verify_PairNumber_from_ColorCode.h"
 #include "ColorCode_for_Telecommunications.h"
 
