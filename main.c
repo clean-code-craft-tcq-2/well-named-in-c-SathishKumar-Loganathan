@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <assert.h>
 #include "ColorCode_for_Telecommunications.h"
 
 const char* MajorColorNames[] = {
